@@ -1,0 +1,22 @@
+{
+  "name": "lambda-gh-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.23",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.160",
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^25.1.0",
+    "@vercel/ncc": "^0.38.4"
+  }
+}
